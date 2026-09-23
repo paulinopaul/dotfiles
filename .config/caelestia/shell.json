@@ -1,0 +1,109 @@
+{
+  "appearance": {
+    "anim": {
+      "durations": {
+        "scale": 0.85
+      }
+    },
+    "deformScale": 0.75,
+    "font": {
+      "scale": 0.9
+    },
+    "padding": {
+      "scale": 0.62
+    },
+    "rounding": {
+      "scale": 0.72
+    },
+    "spacing": {
+      "scale": 0.72
+    },
+    "transparency": {
+      "base": 0.15,
+      "enabled": true,
+      "layers": 0.28
+    }
+  },
+  "background": {
+    "wallpaperEnabled": true
+  },
+  "bar": {
+    "activeWindow": {
+      "compact": true,
+      "showOnHover": false
+    },
+    "clock": {
+      "background": false,
+      "showDate": false,
+      "showIcon": true
+    },
+    "persistent": true,
+    "tray": {
+      "background": false,
+      "compact": true,
+      "recolour": false
+    },
+    "workspaces": {
+      "activeTrail": false,
+      "maxWindowIcons": 0,
+      "occupiedBg": false,
+      "showWindows": true,
+      "showWindowsOnSpecialWorkspaces": true,
+      "windowIcons": [
+        {
+          "name": "discord",
+          "icon": "chat"
+        },
+        {
+          "name": "Spotify",
+          "icon": "music_note"
+        },
+        {
+          "name": "Alacritty",
+          "icon": "terminal"
+        },
+        {
+          "name": "brave-browser",
+          "icon": "public"
+        },
+        {
+          "name": "dolphin",
+          "icon": "folder"
+        }
+      ]
+    }
+  },
+  "border": {
+    "rounding": 16,
+    "smoothing": 12,
+    "thickness": 5
+  },
+  "dashboard": {
+    "performance": {
+      "showGpu": true
+    },
+    "showPerformance": true
+  },
+  "general": {
+    "apps": {
+      "explorer": [
+        "dolphin"
+      ],
+      "terminal": [
+        "alacritty"
+      ]
+    }
+  },
+  "launcher": {
+    "favouriteApps": [
+      "brave-browser",
+      "brave-browser",
+      "spotify",
+      "com.icons8.Lunacy"
+    ]
+  },
+  "services": {
+    "gpuType": "NVIDIA",
+    "smartScheme": true
+  }
+}

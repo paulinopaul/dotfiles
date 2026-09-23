@@ -1,0 +1,84 @@
+{
+    "appearance": {
+        "anim": {
+            "durations": {
+                "scale": 0.85
+            }
+        },
+        "deformScale": 0.75,
+        "font": {
+            "scale": 0.9
+        },
+        "padding": {
+            "scale": 0.62
+        },
+        "rounding": {
+            "scale": 0.72
+        },
+        "spacing": {
+            "scale": 0.72
+        },
+        "transparency": {
+            "base": 0.15,
+            "enabled": true,
+            "layers": 0.28
+        }
+    },
+    "background": {
+        "wallpaperEnabled": true
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": true,
+            "showOnHover": true
+        },
+        "clock": {
+            "background": false,
+            "showDate": false,
+            "showIcon": true
+        },
+        "persistent": true,
+        "tray": {
+            "background": false,
+            "compact": true,
+            "recolour": false
+        },
+        "workspaces": {
+            "activeTrail": false,
+            "maxWindowIcons": 0,
+            "occupiedBg": false,
+            "showWindows": false,
+            "showWindowsOnSpecialWorkspaces": false
+        }
+    },
+    "border": {
+        "rounding": 16,
+        "smoothing": 12,
+        "thickness": 5
+    },
+    "dashboard": {
+        "performance": {
+            "showGpu": true
+        },
+        "showPerformance": true
+    },
+    "general": {
+        "apps": {
+            "explorer": [
+                "dolphin"
+            ],
+            "terminal": [
+                "alacritty"
+            ]
+        }
+    },
+    "launcher": {
+        "favouriteApps": [
+            "microsoft-edge"
+        ]
+    },
+    "services": {
+        "gpuType": "NVIDIA",
+        "smartScheme": true
+    }
+}

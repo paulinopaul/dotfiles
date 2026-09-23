@@ -1,0 +1,48 @@
+{
+    "appearance": {
+        "anim": {
+            "durations": {
+                "scale": 0.85
+            }
+        },
+        "deformScale": 0.75,
+        "font": {
+            "scale": 0.9
+        },
+        "padding": {
+            "scale": 0.62
+        },
+        "rounding": {
+            "scale": 0.72
+        },
+        "spacing": {
+            "scale": 0.72
+        },
+        "transparency": {
+            "base": 0.68,
+            "enabled": true,
+            "layers": 0.28
+        }
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": true
+        },
+        "clock": {
+            "background": false,
+            "showDate": false,
+            "showIcon": true
+        },
+        "persistent": true,
+        "tray": {
+            "background": false,
+            "compact": true,
+            "recolour": false
+        }
+    },
+    "border": {
+        "rounding": 16,
+        "smoothing": 12,
+        "thickness": 5
+    }
+}

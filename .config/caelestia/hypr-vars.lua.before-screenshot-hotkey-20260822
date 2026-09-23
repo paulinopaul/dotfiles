@@ -1,0 +1,40 @@
+return {
+    browser = "microsoft-edge-stable",
+    terminal = "alacritty",
+    fileExplorer = "dolphin",
+
+    -- Estilo visual: compacto, translúcido y futurista
+    blurEnabled = true,
+    blurSpecialWs = true,
+    blurPopups = true,
+    blurInputMethods = true,
+    blurSize = 10,
+    blurPasses = 3,
+    blurXray = false,
+
+    shadowEnabled = true,
+    shadowRange = 18,
+    shadowRenderPower = 3,
+
+    workspaceGaps = 12,
+    windowGapsIn = 4,
+    windowGapsOut = 8,
+    singleWindowGapsOut = 12,
+
+    windowOpacity = 0.94,
+    windowRounding = 12,
+    windowBorderSize = 2,
+
+    kbTerminal = "SUPER + Q",
+    kbLauncher = "SUPER + R",
+    kbFileExplorer = "SUPER + E",
+    kbCloseWindow = "SUPER + C",
+    kbMoveWinToWs = "SUPER + SHIFT",
+
+    kbScreenshot = "",
+
+    -- Reubicar funciones de Caelestia que originalmente usan R y C
+    kbTodoWs = "SUPER + SHIFT + R",
+    kbEditor = "SUPER + SHIFT + C",
+    kbColorPicker = "SUPER + ALT + C",
+}

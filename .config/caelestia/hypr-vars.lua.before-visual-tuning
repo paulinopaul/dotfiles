@@ -1,0 +1,16 @@
+return {
+    browser = "microsoft-edge-stable",
+    terminal = "alacritty",
+    fileExplorer = "dolphin",
+
+    kbTerminal = "SUPER + Q",
+    kbLauncher = "SUPER + R",
+    kbFileExplorer = "SUPER + E",
+    kbCloseWindow = "SUPER + C",
+    kbMoveWinToWs = "SUPER + SHIFT",
+
+    -- Reubicar funciones de Caelestia que originalmente usan R y C
+    kbTodoWs = "SUPER + SHIFT + R",
+    kbEditor = "SUPER + SHIFT + C",
+    kbColorPicker = "SUPER + ALT + C",
+}
