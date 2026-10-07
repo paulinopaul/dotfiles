@@ -6,14 +6,16 @@ Repositorio modular centralizado para la configuración del entorno de escritori
 La configuración sigue el Principio de Responsabilidad Única aislando los módulos en un solo repositorio unificado (`~/dotfiles`). 
 Se utilizan enlaces simbólicos (symlinks) desde el repositorio hasta las ubicaciones esperadas por el sistema (`~/.config/`).
 
-- `.config/hypr/`: Configuración del gestor de ventanas (Wayland compositors).
+- `.config/hypr/`: Configuración del gestor de ventanas (Wayland compositors), terminal por defecto (`ghostty`) y demonio de fondos (`hyprpaper`).
 - `.config/caelestia/`: Configuración personalizada del shell y variables del entorno.
 
 ## Dependencias
 - Git
 - SSH (Autenticación para GitHub)
 - Hyprland
-- Componentes base de Caelestia shell
+- Ghostty (Terminal emulator por defecto)
+- Hyprpaper (Demonio de wallpaper Wayland)
+- Quickshell (Cocoa Shell)
 
 ## Despliegue Local (Restauración)
 En caso de reinstalación del sistema, ejecutar los siguientes comandos para restaurar los enlaces simbólicos de forma segura:

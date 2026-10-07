@@ -1,0 +1,11 @@
+# Backups y deshabilitados
+**/*.disabled/
+**/hyprland.disabled/
+**/backups/
+**/*.before-*
+
+# Generado automáticamente por apply_wallpaper_theme.sh
+.config/hypr/theme.conf
+
+# Notas internas del agente
+/odd/
